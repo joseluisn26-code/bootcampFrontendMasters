@@ -1,0 +1,148 @@
+/* first css*/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2e4c6d;
+}
+#HeadInicio {
+  width: 100%;
+  height: 100vh;
+}
+#HeadInicio nav {
+  width: 200px;
+  height: 100vh;
+}
+header {
+  background-color: #396eb0;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+img {
+  border: 10px solid #396eb0;
+}
+h1 {
+  border: 5px dotted #daddfc;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+blockquote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+  font-style: italic;
+  text-align: center;
+  border: 5px dotted #fc997c;
+}
+cite {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.bigbold {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+ul {
+  list-style-type: circle;
+}
+ul a:link {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1, 5rem;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: #fc997cfc;
+  font-size: 2rem;
+  font-weight: normal;
+}
+a:hover {
+  color: #396eb0;
+}
+a.harvard:link {
+  text-decoration: none;
+  color: #678983b0;
+}
+ol {
+  width: 100rem;
+}
+h1,
+h2,
+h3 {
+  color: #daddfc;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 800px;
+  background: #ccc;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+nav li {
+  /* border: 3px solid yellow; */
+  width: 20rem;
+  text-align: center;
+  display: block;
+}
+
+nav a {
+  /* border: 3px dotted white; */
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  color: black;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #2e4c6e;
+  height: 300px;
+}
+
+/* al ponerla a la derecha con la clase floatright y por eso debe aplicar esta formula */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.floatleft {
+  float: left;
+  /*T R B L (top, right, bottom, left)*/
+  margin: 0 1rem 1rem 0;
+  border-radius: 100px;
+}
+footer {
+  background-color: #396eb0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.hobbies {
+  height: 150px;
+}
+.reduce {
+  font-size: 1rem;
+}
+
